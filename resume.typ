@@ -3,7 +3,7 @@
 #show: resume
 
 #align(center, [
-  #name_header("Mingyuan Zhao") \
+  #name_header("Mingyuan (Louis) Zhao") \
   #v(0.1em)
   Scarborough, ON \
   437-340-9503 | 
@@ -19,11 +19,13 @@
   - Advanced Python programming and generative AI skills developed through building generative neural networks and creating web scraper scripts.
   - Intermediate game development skills gained from creating an online minesweeper game.
   - Intermediate HTML/CSS/JS/Vue3 skills gained from designing and implementing the main page of a music game contest.
-  - Intermediate C programming skills developed through completing the assignments of the course _Introduction to Computer Science II_.
+  - Effective backend web developing skills gained from creating backend APIs for a web gallery using Node and Express.js in the course _Programming on the Web_.
+  - Solid low level web programming skills gained from creating a TCP web server using C in the course _Software Tools and Systems Programming_.
+  - Adequate C programming skills developed through completing the assignments of the course _Introduction to Computer Science II_.
 
   Soft Skills:
   - Strong communication skills developed through contacting  with contestants of a music game contest.
-  - Strong teamwork skills developed through collaborating with group members in the final project of the course _Software Design_.
+  - Robust teamwork skills developed through collaborating with group members in the final project of the course _Software Design_, incorporating a Scrum workflow.
 ]
 
 #resume_heading[Education]
@@ -33,12 +35,24 @@
   location: "Scarborough, ON",
   date: "Sept. 2023 - Present",
   other: [
-    Cumulative GPA: 3.9 / 4 \
+    Cumulative GPA: 3.98 / 4 \
     Awards: Greenpath Entrance Scholarship Of Excellence (\$10000)
   ]
 )
 
 #resume_heading[Relevant Coursework]
+
+#exp_item(
+  name: "University of Toronto Scarborough",
+  role: "Programming on the Web (CSCC09)",
+  location: "",
+  date: "Sept. 2024 - Present",
+  [Designed a responsive, modern looking UI for a web gallery using HTML and CSS.],
+  [
+    Implemented the frontend logic of the website using modern JavaScript.
+  ],
+  [Created the backend of the app using Node and Express.js, with tests utilizing the Chai assertion library. ]
+)
 
 #exp_item(
   name: "University of Toronto Scarborough",
@@ -74,4 +88,14 @@
   date: "May 2020 - Oct. 2020",
   [Modified the DeepDream model to create interesting visual effects on images.],
   [Wrote an award winning academical report and presented it in front of professors from Zhejiang University.]
+)
+
+#resume_heading[Experience: Extra Curricular]
+#exp_item(
+  name: "China Yingcai Project Computer Science Winter Camp",
+  role: "Group leader",
+  location: "Online",
+  date: "Jan. 2020",
+  [Conducted research on image clustering algorithms and optimizations techniques. Using Python and tools like scikit-learn, opencv and PIL.],
+  [Volunteered as group leader, assigned tasks to group members, and made a presentation on research outcomes.],
 )
