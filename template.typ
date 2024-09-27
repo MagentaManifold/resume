@@ -11,14 +11,14 @@
 
   set text(
     size: 11pt,
-      font: "New Computer Modern",
+      font: "Times New Roman",
   )
 
   body
 }
 
 #let name_header(name) = {
-  set text(size: 2.25em)
+  set text(size: 1.8em)
   [*#name*]
 }
 
@@ -55,20 +55,27 @@
   name: "Sample University", 
   degree: "B.S in Bullshit", 
   location: "Foo, BA", 
-  date: "Aug. 1600 - May 1750"
+  date: "Aug. 1600 - May 1750",
+  other: [],
 ) = {
   set block(above: 0.7em, below: 1em)
-  pad(left: 1em, right: 0.5em, grid(
-    columns: (3fr, 1fr),
-    align(left)[
-      *#name* \
-      _#degree _
-    ],
-    align(right)[
-      #location \
-      _#date _
-    ]
-  ))
+  pad(left: 1em, right: 0.5em, [
+    #grid(
+      columns: (3fr, 1fr),
+      align(left)[
+        *#name* \
+        _#degree _
+      ],
+      align(right)[
+        #location \
+        _#date _
+      ]
+    )
+    #v(-0.3em)
+    #other
+  ]
+  )
+  
 }
 
 #let exp_item(
@@ -115,4 +122,9 @@
   set block(above: 0.7em)
   set text(size: 0.91em)
   pad(left: 1em, right: 0.5em, block[*#category*: #skills])
+}
+
+#let item(content) = {
+  set block(above: 0.7em, below: 1em)
+  pad(left: 1em, right: 0.5em)[#content]
 }
