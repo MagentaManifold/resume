@@ -45,7 +45,7 @@
 
 #exp_item(
   name: "University of Toronto Scarborough",
-  role: "Programming on the Web (CSCC09)",
+  role: "Programming on the Web",
   location: "",
   date: "Sept. 2024 - Present",
   [Engineered a responsive and contemporary user interface for a web gallery utilizing HTML and CSS, developed from scratch without the aid of templates or component libraries.],
@@ -56,7 +56,7 @@
 
 #exp_item(
   name: "University of Toronto Scarborough",
-  role: "Software Design (CSCB07)",
+  role: "Software Design",
   location: "",
   date: "May 2024 - Aug. 2024",
   [Collaborated with group members to create a museum collection management system Android application as the final project, using Java as the programming language and Firebase for data storing.],
@@ -65,7 +65,7 @@
 
 #exp_item(
   name: "University of Toronto Scarborough",
-  role: "Introduction to Computer Science II (CSCA48)",
+  role: "Introduction to Computer Science II",
   location: "",
   date: "Jan. 2024 - Apr. 2024",
   [Implemented a compression algorithm in C, utilizing data structures like linked lists and binary trees.],
