@@ -21,12 +21,13 @@
   - Competent HTML/CSS/JS/Vue3 skills gained from designing and implementing the main page of a music game contest.
   - Effective backend web developing skills gained from creating backend APIs for a web gallery using Node and Express.js in the course _Programming on the Web_.
   - Strong testing skills developed through writing unit tests for the backend of a web gallery using Mocha and the Chai assertion library in the course _Programming on the Web_.
+  - High proficiency in Linux and Bash scripting, developed through daily use of Linux as the primary operating system and creating shell scripts for student data manipulation in the course _Software Tools and Systems Programming_.
   - Solid low level web programming skills gained from creating a TCP web server using C in the course _Software Tools and Systems Programming_.
   - Adequate C programming skills developed through completing the assignments of the course _Introduction to Computer Science II_.
 
   Soft Skills:
   - Strong communication skills developed through contacting  with contestants of a music game contest.
-  - Strong teamwork and project management skills developed through collaborating with group members on the final project for the course _Software Design_, utilizing a Scrum workflow with Jira.
+  - Robust teamwork and project management skills developed through collaborating with group members on the final project for the course _Software Design_, utilizing a Scrum workflow with Jira.
 ]
 
 #resume_heading[Education]
@@ -61,6 +62,15 @@
   date: "May 2024 - Aug. 2024",
   [Collaborated with group members to create a museum collection management system Android application as the final project, using Java as the programming language and Firebase for data storing.],
   [Managed the group project using the Scrum methodology, utilizing Jira to track progress and GitHub for version control, adhering to branch and commit naming best practices.]
+)
+
+#exp_item(
+  name: "University of Toronto Scarborough",
+  role: "Software Tools and Systems Programming",
+  location: "",
+  date: "May 2024 - Aug. 2024",
+  [Created shell scripts to automate student data manipulation tasks like listing top students given information from text files.],
+  [Developed a simplified version of Netcat in C, utilizing sockets and Linux system calls to establish TCP connections.]
 )
 
 #exp_item(
