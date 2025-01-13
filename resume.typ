@@ -18,7 +18,7 @@
   Technical Skills:
   - Advanced Python programming and generative AI skills developed through building generative neural networks and creating web scraper scripts.
   - Intermediate game development skills gained from creating an online minesweeper game.
-  - Competent HTML/CSS/JS/Vue3 skills gained from designing and implementing the main page of a music game contest.
+  - Rich experience with frontend technologies, including HTML, CSS/Tailwind, TypeScript, React, and Next.js, gained from designing and implementing the frontend of Groooove, a drum loop sharing platform.
   - Effective backend web developing skills gained from creating backend APIs for a web gallery using Node and Express.js in the course _Programming on the Web_.
   - Strong testing skills developed through writing unit tests for the backend of a web gallery using Mocha and the Chai assertion library in the course _Programming on the Web_.
   - High proficiency in Linux and Bash scripting, developed through daily use of Linux as the primary operating system and creating shell scripts for student data manipulation in the course _Software Tools and Systems Programming_.
@@ -38,7 +38,7 @@
   date: "Sept. 2023 - Present",
   other: [
     Cumulative GPA: 3.98 / 4 \
-    Awards: Greenpath Entrance Scholarship Of Excellence (\$10000)
+    Awards: Greenpath Entrance Scholarship Of Excellence (\$10,000), 2024 Dean's List
   ]
 )
 
@@ -85,10 +85,19 @@
 #resume_heading[Experience: Projects]
 
 #project_item(
-  name: "MUGHome",
+  name: [Groooove],
+  skills: "TypeScript, Next.js, React, Tailwind CSS, Tone.js, Pixi.js, Golang, PostgreSQL",
+  date: "Oct. 2024 - Dec. 2024",
+  [Developed the frontend of Groooove (#link("https://groooove.me")[groooove.me]), a drum loop sharing platform, with Next.js],
+  [Designed a clean and elegant user interface using NextUI (a React component library) and Tailwind CSS.],
+  [Incorporated Tone.js (for WebAudio) and Pixi.js (for WebGL 2D rendering) to built the drum loop editor with real-time preview.]
+)
+
+#project_item(
+  name: [MUGHome],
   skills: "JavaScript/TypeScript, Vue 3, HTML, CSS",
   date: "Apr. 2023 - Sept. 2023",
-  [Designed and Developed the contest information page of MUGHome, a music game forum with hundreds of users, using Vue 3.],
+  [Designed and Developed the contest information page of MUGHome (#link("https://forum.mughome.top/monf/2023")[forum.mughome.top]), a music game forum with hundreds of users, using Vue 3.],
   [Fixing UI bugs reported by users, enhancing user experience of the site.]
 )
 
