@@ -24,6 +24,7 @@
   - High proficiency in Linux and Bash scripting, developed through daily use of Linux as the primary operating system and creating shell scripts for student data manipulation in the course _Software Tools and Systems Programming_.
   - Solid low level web programming skills gained from creating a TCP web server using C in the course _Software Tools and Systems Programming_.
   - Adequate C programming skills developed through completing the assignments of the course _Introduction to Computer Science II_.
+  - Competent Java (Android) programming skills and solid understanding of object oriented programming developed through creating a museum collection management system Android application as the final project for the course _Software Design_.
 
   Soft Skills:
   - Strong communication skills developed through contacting  with contestants of a music game contest.
