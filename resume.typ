@@ -99,7 +99,7 @@
   skills: "JavaScript/TypeScript, Vue 3, HTML, CSS",
   date: "Apr. 2023 - Sept. 2023",
   [Designed and Developed the contest information page of MUGHome (#link("https://forum.mughome.top/monf/2023")[forum.mughome.top]), a music game forum with hundreds of users, using Vue 3.],
-  [Resolved UI bugs reported by users, enhancing the overall user experience.]
+  [Gathered user feedbacks and resolved UI bugs reported by users, enhancing the overall user experience.]
 )
 
 #project_item(
