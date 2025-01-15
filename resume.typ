@@ -16,12 +16,11 @@
 #resume_heading[Skills]
 #item[
   Technical Skills:
-  - Advanced Python programming and generative AI skills developed through building generative neural networks and creating web scraper scripts.
-  - Intermediate game development skills gained from creating an online minesweeper game.
+  - Advanced Python programming and machine learning skills developed through conducting research on image clustering algorithms and optimization techniques in the China Yingcai Project Computer Science Winter Camp, and creating a variation of the DeepDream model using TensorFlow and Keras in the project _Deep Dream with Mask_.
   - Rich experience with frontend technologies, including HTML, CSS/Tailwind, TypeScript, React, and Next.js, gained from designing and implementing the frontend of Groooove, a drum loop sharing platform.
   - Effective backend web developing skills gained from creating backend APIs for a web gallery using Node and Express.js in the course _Programming on the Web_.
   - Strong testing skills developed through writing unit tests for the backend of a web gallery using Mocha and the Chai assertion library in the course _Programming on the Web_.
-  - High proficiency in Linux and Bash scripting, developed through daily use of Linux as the primary operating system and creating shell scripts for student data manipulation in the course _Software Tools and Systems Programming_.
+  - High proficiency in Linux and Bash scripting, developed through daily use of Linux as the primary operating system, managing VPS servers on Google Cloud Platform through SSH for web projects, and creating shell scripts for student data manipulation in the course _Software Tools and Systems Programming_.
   - Solid low level web programming skills gained from creating a TCP web server using C in the course _Software Tools and Systems Programming_.
   - Adequate C programming skills developed through completing the assignments of the course _Introduction to Computer Science II_.
   - Competent Java (Android) programming skills and solid understanding of object oriented programming developed through creating a museum collection management system Android application as the final project for the course _Software Design_.
@@ -87,11 +86,12 @@
 
 #project_item(
   name: [Groooove],
-  skills: "TypeScript, Next.js, React, Tailwind CSS, Tone.js, Pixi.js, Golang, PostgreSQL",
+  skills: "TypeScript, Next.js, React, Tailwind CSS, Tone.js, Pixi.js, Golang, PostgreSQL, GCP\n",
   date: "Oct. 2024 - Dec. 2024",
   [Developed the frontend of Groooove (#link("https://groooove.me")[groooove.me]), a drum loop sharing platform, with Next.js],
   [Designed a clean and elegant user interface using NextUI (a React component library) and Tailwind CSS.],
-  [Incorporated Tone.js (for WebAudio) and Pixi.js (for WebGL 2D rendering) to built the drum loop editor with real-time preview.]
+  [Incorporated Tone.js (for WebAudio) and Pixi.js (for WebGL 2D rendering) to built the drum loop editor with real-time preview.],
+  [Deployed the application on Google Cloud Platform, and managed the PostgreSQL database with pgAdmin.]
 )
 
 #project_item(
@@ -116,6 +116,6 @@
   role: "Group leader",
   location: "Online",
   date: "Jan. 2020",
-  [Conducted research on image clustering algorithms and optimizations techniques. Using Python and tools like scikit-learn, opencv and PIL.],
+  [Conducted research on image clustering algorithms and optimization techniques. Using Python and tools like scikit-learn, opencv and PIL.],
   [Volunteered as group leader, assigned tasks to group members, and made a presentation on research outcomes.],
 )
