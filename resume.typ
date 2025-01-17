@@ -48,7 +48,7 @@
   name: "University of Toronto Scarborough",
   role: "Programming on the Web",
   location: "",
-  date: "Sept. 2024 - Present",
+  date: "Sept. 2024 - Dec. 2024",
   [Engineered a responsive and contemporary user interface for a web gallery utilizing HTML and CSS, developed from scratch without the aid of templates or component libraries.],
   [Implemented the frontend logic of the website using modern JavaScript, interacting with the backend API.],
   [Created the backend of the app using Node and Express.js, including CRUD features, file upload functionality and user authorization using session.],
@@ -113,7 +113,7 @@
 #resume_heading[Experience: Extra Curricular]
 #exp_item(
   name: "China Yingcai Project Computer Science Winter Camp",
-  role: "Group leader",
+  role: "Research Group Leader",
   location: "Online",
   date: "Jan. 2020",
   [Conducted research on image clustering algorithms and optimization techniques. Using Python and tools like scikit-learn, opencv and PIL.],
