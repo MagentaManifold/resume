@@ -52,7 +52,7 @@
   date: "Sept. 2024 - Dec. 2024",
   [Engineered a responsive and contemporary user interface for a web gallery utilizing HTML and CSS, developed from scratch without the aid of templates or component libraries.],
   [Implemented the frontend logic of the website using modern JavaScript, interacting with the backend API.],
-  [Created the backend of the app using Node and Express.js, including CRUD features, file upload functionality and user authorization using session.],
+  [Created a RESTful backend API of the app using Node and Express.js, including CRUD features, file upload functionality and user authorization using session.],
   [ Wrote unit tests utilizing the Mocha testing framework and the Chai assertion library. ]
 )
 
