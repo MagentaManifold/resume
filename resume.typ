@@ -17,8 +17,9 @@
 #item[
   Technical Skills:
   - Advanced Python programming and machine learning skills developed through conducting research on image clustering algorithms and optimization techniques in the China Yingcai Project Computer Science Winter Camp, and creating a variation of the DeepDream model using TensorFlow and Keras in the project _Deep Dream with Mask_.
-  - Rich experience with frontend technologies, including HTML, CSS/Tailwind, TypeScript, React, and Next.js, gained from designing and implementing the frontend of Groooove, a drum loop sharing platform.
-  - Effective backend web developing skills gained from creating backend APIs for a web gallery using Node and Express.js in the course _Programming on the Web_.
+  - Rich experience with frontend technologies, including HTML, CSS/Tailwind, TypeScript, React, and Next.js, gained from designing and implementing the frontend of _Groooove_, a drum loop sharing platform.
+  - Experience with PostgreSQL developed through managing the PostgreSQL database for _Groooove_ with pgAdmin.
+  - Effective backend web developing skills gained from creating backend APIs for a web gallery using Node, Express.js and NeDB in the course _Programming on the Web_.
   - Strong testing skills developed through writing unit tests for the backend of a web gallery using Mocha and the Chai assertion library in the course _Programming on the Web_.
   - High proficiency in Linux and Bash scripting, developed through daily use of Linux as the primary operating system, managing VPS servers on Google Cloud Platform through SSH for web projects, and creating shell scripts for student data manipulation in the course _Software Tools and Systems Programming_.
   - Solid low level web programming skills gained from creating a TCP web server using C in the course _Software Tools and Systems Programming_.
