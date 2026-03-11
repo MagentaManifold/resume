@@ -39,7 +39,7 @@
   date: "Sept. 2023 - Present",
   other: [
     Cumulative GPA: 3.98 / 4 \
-    Awards: Greenpath Entrance Scholarship Of Excellence (\$10,000), 2024\~2025 Dean's List
+    Awards: Greenpath Entrance Scholarship Of Excellence (\$10,000), 2024-2025 University of Toronto Scholar (\$1,500)
   ],
 )
 
