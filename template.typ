@@ -6,12 +6,12 @@
 
   set page(
     paper: "us-letter",
-    margin: (x: 0.5in, y: 0.5in)
+    margin: (x: 0.5in, y: 0.5in),
   )
 
   set text(
     size: 11pt,
-      font: "Times New Roman",
+    font: "Times New Roman",
   )
 
   body
@@ -29,15 +29,13 @@
   linkedin: "linkedin.com/in/jake",
   site: "github.com/jake",
 ) = {
-  align(center,
-    block[
-      #name_header(name) \
-      #phone |
-      #link("mailto:" + email)[#email] |
-      #link("https://" + linkedin)[#linkedin] |
-      #link("https://" + site)[#site]
-    ]
-  )
+  align(center, block[
+    #name_header(name) \
+    #phone |
+    #link("mailto:" + email)[#email] |
+    #link("https://" + linkedin)[#linkedin] |
+    #link("https://" + site)[#site]
+  ])
   v(5pt)
 }
 
@@ -52,9 +50,9 @@
 }
 
 #let edu_item(
-  name: "Sample University", 
-  degree: "B.S in Bullshit", 
-  location: "Foo, BA", 
+  name: "Sample University",
+  degree: "B.S in Bullshit",
+  location: "Foo, BA",
   date: "Aug. 1600 - May 1750",
   other: [],
 ) = {
@@ -69,13 +67,11 @@
       align(right)[
         #location \
         _#date _
-      ]
+      ],
     )
     #v(-0.3em)
     #other
-  ]
-  )
-  
+  ])
 }
 
 #let exp_item(
@@ -83,30 +79,54 @@
   role: "Worker",
   date: "June 1837 - May 1845",
   location: "Foo, BA",
-  ..points
+  ..points,
 ) = {
-    set block(above: 0.7em, below: 1em)
-    pad(left: 1em, right: 0.5em, box[
-      #grid(
-        columns: (3fr, 1fr),
-        align(left)[
-          *#role* \
-          _#name _
-        ],
-        align(right)[
-          #date \
-          _#location _
-        ]
-      )
-      #list(..points)
-    ])
+  set block(above: 0.7em, below: 1em)
+  pad(left: 1em, right: 0.5em, box[
+    #grid(
+      columns: (3fr, 1fr),
+      align(left)[
+        *#role* \
+        _#name _
+      ],
+      align(right)[
+        #date \
+        _#location _
+      ],
+    )
+    #list(..points)
+  ])
+}
+
+#let course_item(
+  name: "Course Name",
+  institution: "Sample University",
+  date: "June 1837 - May 1845",
+  grade: "",
+  ..points,
+) = {
+  set block(above: 0.7em, below: 1em)
+  pad(left: 1em, right: 0.5em, box[
+    #grid(
+      columns: (3fr, 1fr),
+      align(left)[
+        *#name* \
+        _#institution _
+      ],
+      align(right)[
+        #date \
+        #grade
+      ],
+    )
+    #list(..points)
+  ])
 }
 
 #let project_item(
   name: "Example Project",
   skills: "Programming Language 1, Database3",
   date: "May 1234 - June 4321",
-  ..points
+  ..points,
 ) = {
   set block(above: 0.7em, below: 1em)
   pad(left: 1em, right: 0.5em, box[

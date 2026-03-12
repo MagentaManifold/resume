@@ -1,4 +1,6 @@
-#import "template.typ": edu_item, exp_item, item, name_header, project_item, resume, resume_heading, skill_item
+#import "template.typ": (
+  course_item, edu_item, exp_item, item, name_header, project_item, resume, resume_heading, skill_item,
+)
 
 #show: resume
 
@@ -57,30 +59,27 @@
 
 #resume_heading[Relevant Coursework]
 
-#exp_item(
-  name: "University of Toronto Scarborough",
-  role: "Programming on the Web",
-  location: "",
+#course_item(
+  name: "Programming on the Web",
+  institution: "University of Toronto Scarborough",
   date: "Sept. 2024 - Dec. 2024",
   [Engineered a responsive and contemporary user interface for a web gallery utilizing HTML and CSS, developed from scratch without the aid of templates or component libraries.],
   [Implemented the frontend logic of the website using modern JavaScript, interacting with the backend API.],
   [Created a RESTful backend API of the app using Node and Express.js, including CRUD features, file upload functionality and user authorization using session.],
-  [ Wrote unit tests utilizing the Mocha testing framework and the Chai assertion library. ],
+  [Wrote unit tests utilizing the Mocha testing framework and the Chai assertion library.],
 )
 
-#exp_item(
-  name: "University of Toronto Scarborough",
-  role: "Software Design",
-  location: "",
+#course_item(
+  name: "Software Design",
+  institution: "University of Toronto Scarborough",
   date: "May 2024 - Aug. 2024",
   [Collaborated with group members to create a museum collection management system Android application as the final project, using Java as the programming language and Firebase for data storing.],
   [Managed the group project using the Scrum methodology, utilizing Jira to track progress and GitHub for version control, adhering to branch and commit naming best practices.],
 )
 
-#exp_item(
-  name: "University of Toronto Scarborough",
-  role: "Software Tools and Systems Programming",
-  location: "",
+#course_item(
+  name: "Software Tools and Systems Programming",
+  institution: "University of Toronto Scarborough",
   date: "May 2024 - Aug. 2024",
   [Created shell scripts to automate student data manipulation tasks like listing top students given information from text files.],
   [Developed a simplified version of Netcat in C, utilizing sockets and Linux system calls to establish TCP connections.],
