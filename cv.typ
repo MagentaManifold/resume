@@ -16,7 +16,7 @@
 #resume_heading[Research Interests]
 
 #item[
-  Programming languages theory, functional programming, type systems, and formal verification.
+  Programming language theory, functional programming, type systems, and formal verification.
 ]
 
 #resume_heading[Education]
@@ -37,7 +37,7 @@
   name: "little-lamb",
   skills: "Rust, Parser Combinators (Chumsky)",
   date: "Oct. 2025 - Present",
-  [Built an untyped lambda calculus interpreter in Rust and Chumsky (a parser combinator library).],
+  [Designed and implemented an untyped lambda calculus interpreter in Rust and Chumsky (a parser combinator library).],
   [Uses de Bruijn indices internally for variable binding, which enables the pretty-printer to recognize and print known terms by alpha-equivalence, including Church numerals, booleans, and common combinators).],
   [Extended the core calculus with let/letrec desugaring, Church-encoded numerals and booleans, and a small standard library of combinators.],
   [Implemented both a substitution-based evaluator and a full-reducing Krivine abstract machine (call-by-name, normal-order); benchmarked both evaluators on recursive programs (e.g., factorial, Fibonacci), observing substantial performance improvements from environment-based reduction.],
@@ -50,6 +50,9 @@
   institution: "University of Toronto Scarborough",
   date: "Jan. 2025 - Apr. 2025",
   grade: "Grade: 97 (A+)",
+  [Topics: formal syntax and grammars, language semantics, functional programming concepts, logic programming.],
+  [Practiced functional programming techniques in Racket and Haskell, including recursion, higher-order functions, algebraic data types, and polymorphism. Explored logic programming in Prolog.],
+  [Wrote a technical guide on parametric polymorphism in C++, implementing generic functions and classes using templates.],
 )
 
 #course_item(
@@ -57,6 +60,7 @@
   institution: "University of Toronto Scarborough",
   date: "May 2024 - Aug. 2024",
   grade: "Grade: 93 (A+)",
+  [Topics: propositional and predicate logic, mathematical induction, informal reasoning about program correctness, regular expressions and finite state automata, context-free grammars and pushdown automata.],
 )
 
 #resume_heading[Work Experience]
@@ -66,5 +70,5 @@
   role: "Full-stack Software Engineering Intern",
   location: "Toronto, ON (Remote)",
   date: "May 2025 - Apr. 2026",
-  [Contributed to Mozilla Accounts (#link("https://github.com/mozilla/fxa")[mozilla/fxa]), a performance-critical identity platform serving 10 million monthly active users, shipping features and improvements across the React frontend and Node.js backend over 100+ merged pull requests.],
+  [Contributed to Mozilla Accounts (#link("https://github.com/mozilla/fxa")[mozilla/fxa]), a performance-critical identity platform serving 10 million monthly active users, implementing features and improvements across the React frontend and Node.js backend over 100+ merged pull requests.],
 )
