@@ -5,7 +5,7 @@
 #show: resume
 
 #align(center, [
-  #name_header("Mingyuan (Louis) Zhao") \
+  #name_header("Mingyuan Zhao") \
   #v(0.1em)
   Scarborough, ON \
   437-340-9503 |
@@ -35,9 +35,9 @@
 
 #project_item(
   name: "little-lamb",
-  skills: "Rust, Parser Combinators (Chumsky)",
+  skills: "Rust, Parser Combinators, Lambda Calculus",
   date: "Oct. 2025 - Present",
-  [Designed and implemented an untyped lambda calculus interpreter in Rust and Chumsky (a parser combinator library).],
+  [Designed and implemented an untyped lambda calculus interpreter in Rust using Chumsky (a parser combinator library).],
   [Uses de Bruijn indices internally for variable binding, which enables the pretty-printer to recognize and print known terms by alpha-equivalence, including Church numerals, booleans, and common combinators.],
   [Extended the core calculus with let/letrec desugaring, Church-encoded numerals and booleans, and a small standard library of combinators.],
   [Implemented both a substitution-based evaluator and a full-reducing Krivine abstract machine (call-by-name, normal-order); benchmarked both evaluators on recursive programs (e.g., factorial, Fibonacci), observing substantial performance improvements from environment-based reduction.],
