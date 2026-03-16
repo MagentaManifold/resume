@@ -38,7 +38,7 @@
   skills: "Rust, Parser Combinators (Chumsky)",
   date: "Oct. 2025 - Present",
   [Designed and implemented an untyped lambda calculus interpreter in Rust and Chumsky (a parser combinator library).],
-  [Uses de Bruijn indices internally for variable binding, which enables the pretty-printer to recognize and print known terms by alpha-equivalence, including Church numerals, booleans, and common combinators).],
+  [Uses de Bruijn indices internally for variable binding, which enables the pretty-printer to recognize and print known terms by alpha-equivalence, including Church numerals, booleans, and common combinators.],
   [Extended the core calculus with let/letrec desugaring, Church-encoded numerals and booleans, and a small standard library of combinators.],
   [Implemented both a substitution-based evaluator and a full-reducing Krivine abstract machine (call-by-name, normal-order); benchmarked both evaluators on recursive programs (e.g., factorial, Fibonacci), observing substantial performance improvements from environment-based reduction.],
 )
