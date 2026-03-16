@@ -63,6 +63,17 @@
   [Topics: propositional and predicate logic, mathematical induction, informal reasoning about program correctness, regular expressions and finite state automata, context-free grammars and pushdown automata.],
 )
 
+#resume_heading[Technical Skills]
+
+#skill_item(
+  category: "Languages",
+  skills: "Haskell, Racket, Prolog, TypeScript, Rust, C, Python",
+)
+#skill_item(
+  category: "Tools",
+  skills: "Git, Linux, LaTeX, Rocq (learning through Software Foundations)",
+)
+
 #resume_heading[Work Experience]
 
 #exp_item(
