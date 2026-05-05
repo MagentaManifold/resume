@@ -13,12 +13,6 @@
   #link("https://github.com/MagentaManifold")[github.com/MagentaManifold]
 ])
 
-#resume_heading[Research Interests]
-
-#item[
-  Programming language theory, functional programming, type systems, and formal verification.
-]
-
 #resume_heading[Education]
 #edu_item(
   name: "University of Toronto Scarborough",
@@ -32,6 +26,13 @@
 )
 
 #resume_heading[Research & Projects]
+#project_item(
+  name: "Deep Dream with Mask",
+  skills: "Python, TensorFlow, Keras, Academic Research",
+  date: "May 2020 - Oct. 2020",
+  [Modified the DeepDream model to create interesting visual effects on images, using TensorFlow and Keras.],
+  [Authored an award-winning academic report and presented it to professors from Zhejiang University.],
+)
 
 #project_item(
   name: "little-lamb",
@@ -81,5 +82,18 @@
   role: "Full-stack Software Engineering Intern",
   location: "Toronto, ON (Remote)",
   date: "May 2025 - Apr. 2026",
-  [Contributed to Mozilla Accounts (#link("https://github.com/mozilla/fxa")[mozilla/fxa]), a performance-critical identity platform serving 10 million monthly active users, implementing features and improvements across the React frontend and Node.js backend over 100+ merged pull requests.],
+  [Contributed to Mozilla Accounts (#link("https://github.com/mozilla/fxa")[mozilla/fxa]), a performance-critical identity platform serving 10 million monthly active users, implementing features and improvements across the React frontend and Node.js backend over 120+ merged pull requests.],
+  [Contributed to registration flow modernization, improving successful registration conversion rate from 46.5% to 53.6% (+15%) through mobile UX improvements and UI updates.],
+  [Built React components and email templates for SMS two-factor authentication setup, achieving 88% phone adoption over backup codes and 6.3% eligible user uptake post-launch.],
+  [Sole contributor on migrating Storybook deployments from CircleCI/GCP to GitHub Actions and GitHub Pages, achieving 100% cost reduction and \~75% artifact size reduction via selective builds and git-branch artifact storage.],
+)
+
+#resume_heading[Extra Curricular]
+#exp_item(
+  name: "China Yingcai Project Computer Science Winter Camp",
+  role: "Research Group Leader",
+  location: "Online",
+  date: "Jan. 2020",
+  [Conducted research on image clustering algorithms and optimization techniques. Using Python and tools like scikit-learn, opencv and PIL.],
+  [Volunteered as group leader, assigned tasks to group members, and made a presentation on research outcomes.],
 )
