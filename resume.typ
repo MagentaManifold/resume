@@ -1,5 +1,5 @@
 #import "template.typ": (
-  course_item, edu_item, exp_item, item, name_header, project_item, resume, resume_heading, skill_item,
+  course_item, edu_item, event_item, exp_item, item, name_header, project_item, resume, resume_heading, skill_item,
 )
 
 #show: resume
@@ -115,6 +115,17 @@
 )
 
 #resume_heading[Extra Curricular]
+
+#event_item(
+  name: "DS3 2025 Datathon",
+  location: "Online / Scarborough, ON",
+  date: "Feb. 2025",
+  result: "First Place",
+  [Won 1st place in The Data Science & Statistics Society 2025 Datathon at the University of Toronto Scarborough, competing against 26 other teams.],
+  [Classified car accident sources from a dataset of 7 million records by applying data cleaning, feature engineering, and machine learning models in Python using pandas, scikit-learn, and XGBoost.],
+  [Identified fungi species across 5,000 microscopic images using denoising techniques and convolutional neural networks in Python with PyTorch, achieving top performance among all teams.],
+)
+
 #exp_item(
   name: "China Yingcai Project Computer Science Winter Camp",
   role: "Research Group Leader",

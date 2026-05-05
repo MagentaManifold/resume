@@ -144,6 +144,36 @@
   pad(left: 1em, right: 0.5em, block[*#category*: #skills])
 }
 
+
+
+#let event_item(
+  name: "Sample Event",
+  location: "Foo, BA",
+  date: "June 1837 - May 1845",
+  result: "",
+  ..points,
+) = {
+  set block(above: 0.7em, below: 1em)
+  pad(left: 1em, right: 0.5em, box[
+    #grid(
+      columns: (3fr, 1fr),
+      align(left)[
+        *#name* \
+        _#result _
+      ],
+      align(right)[
+        #date \
+        _#location _
+      ],
+    )
+    #if points.pos().len() > 0 {
+      list(..points)
+    } else {
+      none
+    }
+  ])
+}
+
 #let item(content) = {
   set block(above: 0.7em, below: 1em)
   pad(left: 1em, right: 0.5em)[#content]
