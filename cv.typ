@@ -1,5 +1,5 @@
 #import "template.typ": (
-  course_item, edu_item, exp_item, item, name_header, project_item, resume, resume_heading, skill_item,
+  course_item, edu_item, event_item, exp_item, item, name_header, project_item, resume, resume_heading, skill_item,
 )
 
 #show: resume
@@ -26,13 +26,6 @@
 )
 
 #resume_heading[Research & Projects]
-#project_item(
-  name: "Deep Dream with Mask",
-  skills: "Python, TensorFlow, Keras, Academic Research",
-  date: "May 2020 - Oct. 2020",
-  [Modified the DeepDream model to create interesting visual effects on images, using TensorFlow and Keras.],
-  [Authored an award-winning academic report and presented it to professors from Zhejiang University.],
-)
 
 #project_item(
   name: "little-lamb",
@@ -42,6 +35,14 @@
   [Uses de Bruijn indices internally for variable binding, which enables the pretty-printer to recognize and print known terms by alpha-equivalence, including Church numerals, booleans, and common combinators.],
   [Extended the core calculus with let/letrec desugaring, Church-encoded numerals and booleans, and a small standard library of combinators.],
   [Implemented both a substitution-based evaluator and a full-reducing Krivine abstract machine (call-by-name, normal-order); benchmarked both evaluators on recursive programs (e.g., factorial, Fibonacci), observing substantial performance improvements from environment-based reduction.],
+)
+
+#project_item(
+  name: "Deep Dream with Mask",
+  skills: "Python, TensorFlow, Keras, Academic Research",
+  date: "May 2020 - Oct. 2020",
+  [Modified the DeepDream model to create interesting visual effects on images, using TensorFlow and Keras.],
+  [Authored an award-winning academic report and presented it to professors from Zhejiang University.],
 )
 
 #resume_heading[Relevant Coursework]
@@ -67,8 +68,8 @@
 #resume_heading[Technical Skills]
 
 #skill_item(
-  category: "Languages",
-  skills: "Haskell, Racket, Prolog, TypeScript, Rust, C, Python",
+  category: "Languages & Frameworks",
+  skills: "Haskell, Racket, TypeScript, React, Node.js, Rust, C, Python, PyTorch, TensorFlow, NumPy, Pandas",
 )
 #skill_item(
   category: "Tools",
@@ -89,6 +90,17 @@
 )
 
 #resume_heading[Extra Curricular]
+
+#event_item(
+  name: "DS3 2025 Datathon",
+  location: "Online / Scarborough, ON",
+  date: "Feb. 2025",
+  result: "First Place",
+  [Won 1st place in The Data Science & Statistics Society 2025 Datathon at the University of Toronto Scarborough, competing against 26 other teams.],
+  [Classified car accident sources from a dataset of 7 million records by applying data cleaning, feature engineering, and machine learning models in Python using pandas, scikit-learn, and XGBoost.],
+  [Identified fungi species across 5,000 microscopic images using denoising techniques and convolutional neural networks in Python with PyTorch, achieving top performance among all teams.],
+)
+
 #exp_item(
   name: "China Yingcai Project Computer Science Winter Camp",
   role: "Research Group Leader",
