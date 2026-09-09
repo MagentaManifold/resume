@@ -52,9 +52,10 @@
   role: "Full-stack Software Engineering Intern",
   location: "Toronto, ON (Remote)",
   date: "May 2025 - Apr. 2026",
+  [Contributed to Mozilla Accounts (#link("https://github.com/mozilla/fxa")[mozilla/fxa]), a performance-critical identity platform serving over 10 million monthly active users, implementing features and improvements across the React frontend and Node.js backend over 120+ merged pull requests.],
   [Implemented numerous React components for Mozilla Accounts following Figma designs, complete with unit tests and Storybook stories, adhering to localization (Fluent) and accessibility best practices.],
   [Extended the Mozilla Accounts admin panel with rate limit search and clear functionality and account lookup by phone number, increasing its usability for support agents and reducing SRE workload.],
-  [Migrated per-PR Storybook hosting from Google Cloud Platform to GitHub Pages via a custom GitHub Actions workflow, and optimized CI to build only affected packages, reducing build times and artifact size by 50%.],
+  [Migrated per-PR Storybook hosting from Google Cloud Platform to GitHub Pages via a custom GitHub Actions workflow, and optimized CI to build only affected packages, eliminating hosting costs and reducing artifact size by \~75%.],
 )
 
 #resume_heading[Relevant Coursework]
